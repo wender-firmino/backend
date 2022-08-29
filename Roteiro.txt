@@ -1,0 +1,19 @@
+Objetivo: criar um cadastro de livros
+
+Model: (completo)
+    Livro: id, titulo, isbn, resenha, numero_paginas
+
+Repository: (completo)
+    Livro: obterTodos, obterPorId, adicionar, atualizar, remover
+
+Service: (completo)
+    Livro: obterTodos, obterPorId, adicionar, atualizar, remover
+
+Controller: (completo)
+    Livro: obterTodos, obterPorId, adicionar, atualizar, remover
+
+-------------
+Persistir os dados no Postgresql
+
+1 - Conectar ao banco
+2 - Persistir o modelo no banco
